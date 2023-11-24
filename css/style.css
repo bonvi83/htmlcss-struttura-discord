@@ -3,5 +3,28 @@
     padding: 0;
     box-sizing: border-box;
     }
- 
-    
+
+    /* header da sistemare in fase di debugs */
+
+header {
+    display: flex;
+    min-height: 100px;
+    border: solid 1px red;
+    background-color: lightslategray;
+    align-items: center;
+}
+
+.header-left {
+    border: solid 1px black;
+    background-color: lime;
+}
+
+.header-center {
+    border: solid 1px black;
+    background-color: chocolate;
+}
+
+.header-right {
+    border: solid 1px black;
+    background-color: rebeccapurple;
+}
