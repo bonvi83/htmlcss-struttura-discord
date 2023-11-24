@@ -11,8 +11,8 @@ header {
     min-height: 50px;
     border: solid 1px red;
     background-color: rgb(166, 217, 233);
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 .header-left {
@@ -22,7 +22,9 @@ header {
 
 .header-center {
     border: solid 1px black;
+    width: 70%;
     background-color: rgb(255, 167, 0);
+    text-align: center;
 }
 
 .header-right {
@@ -33,18 +35,58 @@ header {
 
 /* blocchi centrali della pagina, con */
 
-.blocco1 {
+.centroviola {
     display: flex;
     min-height: 300px;
     border: solid 1px red;
     background-color: rgb(25, 0, 145);
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 .qviola {
     background-color: blueviolet;
-    height: 50;
+    height: 150px;
+    width: 600px;
     border: solid 1px white;
-
 }
+
+/* magari sostituire nome alla classe */
+.blurosa {
+    display: flex;
+    min-height: 300px;
+    border: solid 1px red;
+    justify-content: center;
+    align-items: center;
+}
+
+.azzurro {
+    background-color: rgb(43, 180, 226);
+    height: 250px;
+    width: 700px;
+    border: solid 1px black;
+}
+
+.rosa {
+    background-color: rosybrown;
+    height: 250px;
+    width: 400px;
+    border: solid 1px black;
+}
+
+.rosablu {
+    display: flex;
+    min-height: 300px;
+    border: solid 1px red;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .blocco4 {
+    display: flex;
+    min-height: 300px;
+    border: solid 1px red;
+    justify-content: center;
+    align-items: center;
+} */
