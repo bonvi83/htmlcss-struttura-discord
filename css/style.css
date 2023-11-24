@@ -8,23 +8,43 @@
 
 header {
     display: flex;
-    min-height: 100px;
+    min-height: 50px;
     border: solid 1px red;
-    background-color: lightslategray;
+    background-color: rgb(166, 217, 233);
     align-items: center;
+    justify-content: center;
 }
 
 .header-left {
     border: solid 1px black;
-    background-color: lime;
+    background-color: rgb(255, 167, 0);
 }
 
 .header-center {
     border: solid 1px black;
-    background-color: chocolate;
+    background-color: rgb(255, 167, 0);
 }
 
 .header-right {
     border: solid 1px black;
-    background-color: rebeccapurple;
+    background-color: rgb(255, 167, 0);
+}
+
+
+/* blocchi centrali della pagina, con */
+
+.blocco1 {
+    display: flex;
+    min-height: 300px;
+    border: solid 1px red;
+    background-color: rgb(25, 0, 145);
+    align-items: center;
+    justify-content: center;
+}
+
+.qviola {
+    background-color: blueviolet;
+    height: 50;
+    border: solid 1px white;
+
 }
