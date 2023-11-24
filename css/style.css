@@ -101,3 +101,12 @@ header {
     height: 1100px;
     border: solid 1px black;
 }
+
+.scusacon5 {
+    display: flex;
+    min-height: 300px;
+    border: solid 1px red;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+}
