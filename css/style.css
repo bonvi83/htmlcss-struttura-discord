@@ -98,15 +98,47 @@ header {
 .qverde {
     background-color: green;
     width: 1100px;
-    height: 1100px;
+    height: 900px;
     border: solid 1px black;
 }
 
-.scusacon5 {
+/* parte dell'footer */
+
+.scuracon5 {
     display: flex;
     min-height: 300px;
     border: solid 1px red;
-    background-color: lightgray;
+    background-color: blue;
     justify-content: center;
     align-items: center;
 }
+
+.rettrosa {
+    background-color: rgb(255, 119, 121);
+    /* width: 1100px; */
+    height: 500px;
+    border: solid 1px white;
+}
+
+.acqua {
+    background-color: aqua;
+    /* width: 1100px; */
+    height: 500px;
+    border: solid 1px white;
+}
+
+.fine {
+    display: flex;
+    min-height: 50px;
+    border: solid 1px red;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* da verificare questo */
+/* 
+.section >* {
+    margin: 1rem, 0;
+} */
