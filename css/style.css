@@ -46,12 +46,13 @@ header {
 
 .qviola {
     background-color: blueviolet;
-    height: 150px;
     width: 600px;
+    height: 150px;
     border: solid 1px white;
 }
 
-/* magari sostituire nome alla classe */
+/* da sostituire nomenclatura classi */
+
 .blurosa {
     display: flex;
     min-height: 300px;
@@ -62,15 +63,15 @@ header {
 
 .azzurro {
     background-color: rgb(43, 180, 226);
-    height: 250px;
     width: 700px;
+    height: 250px;
     border: solid 1px black;
 }
 
 .rosa {
     background-color: rosybrown;
-    height: 250px;
     width: 400px;
+    height: 250px;
     border: solid 1px black;
 }
 
@@ -83,10 +84,20 @@ header {
     align-items: center;
 }
 
-/* .blocco4 {
+/* blocco con quadrato verde */
+
+.centroverde {
     display: flex;
     min-height: 300px;
     border: solid 1px red;
+    background-color: lightgray;
     justify-content: center;
     align-items: center;
-} */
+}
+
+.qverde {
+    background-color: green;
+    width: 1100px;
+    height: 1100px;
+    border: solid 1px black;
+}
